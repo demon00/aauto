@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width; initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:400,700,800" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="libs/slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="libs/slick/slick-theme.css"/>
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+</head>
+<body>
+<div class="container">
+	<!--HEADER-->
+	<header>
+		<div class="row">
+			<div class="col-lg-2">
+				<!--LOGO-->
+				<div class="b-main__logo-wrap">
+					<a href="#" class="b-main__logo_link" title="Dmitry Chistik"></a>
+					<object class="b-main__logo-svg" type="image/svg+xml" data="img/logo.svg"></object>
+				</div>
+				<!--END LOGO-->
+			</div>
+			<div class="col-lg-6">
+				<div class="b-main__contact-wrap">
+					<div class="b-main__contact_sales">
+						<a class="b-main__contact_link" href="tel:+375172223344">+375 17 222-33-44</a>
+						<span class="b-main__contact_cab contact_cab-sales">Отдел продаж</span>
+					</div>
+					<div class="b-main__contact_comis">
+						<a class="b-main__contact_link" href="tel:+375172223344">+375 17 222-33-44</a>
+						<span class="b-main__contact_cab contact_cab-comis">Прием на комиссию</span>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-2">
+				<div class="b-main__social-wrap">
+					<a href="#" class="b-main__social_link social_link-mail" target="_blank"></a>
+					<a href="#" class="b-main__social_link social_link-skype" target="_blank"></a>
+					<a href="#" class="b-main__social_link social_link-facebook" target="_blank"></a>
+				</div>
+			</div>
+			<div class="col-lg-2">
+				<button class="b-main__call-button">Заказать звонок</button>
+			</div>
+		</div>
+	</header>
+	<!--END HEADER-->
+</div>
+<!--NAV-->
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-xs-12">
+			<nav class="main-menu">
+				<!--MENU-->
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-9">
+							<ul class="main-menu__list">
+								<li class="main-menu__item"><a href="#" class="main-menu__link main-menu__link-first">Главная</a></li>
+								<li class="main-menu__item menu__item-hide"><a href="#" class="main-menu__link main-menu__item_drop-up">Услуги</a>
+									<ul class="main-menu__list-drop">
+										<li class="main-menu__item-drop"><a href="#" class="main-menu__item_drop-link">Услуга 1</a></li>
+										<li class="main-menu__item-drop"><a href="#" class="main-menu__item_drop-link">Услуга 1</a></li>
+										<li class="main-menu__item-drop"><a href="#" class="main-menu__item_drop-link">Услуга 1</a></li>
+									</ul>
+								</li>
+								<li class="main-menu__item"><a href="#" class="main-menu__link">Автокаталог</a></li>
+								<li class="main-menu__item"><a href="#" class="main-menu__link">Статьи</a></li>
+								<li class="main-menu__item"><a href="#" class="main-menu__link">Отзывы</a></li>
+								<li class="main-menu__item"><a href="#" class="main-menu__link">Контакты</a></li>
+							</ul>
+						</div>
+						<div class="col-lg-offset-2 col-lg-1">
+							<div class="main-menu__search"><input type="search" class="main-menu__search-input"></div>
+						</div>
+					</div>
+				</div>
+				<!--END MENU-->
+			</nav>
+		</div>
+	</div>
+</div>
+<!--END NAV-->
+<!--MAIN CONTENT-->
+<div class="main__content">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8">
+				<div class="main__slider_wrap">
+					<h2 class="main__slider_caption">Новые модели в каталоге</h2>
+					<div class="main__car-slider">
+						<div class="main__car-slider_img">
+							<div class="main__car-slider_description">
+								<p class="main__car-slider_about-car">2010 Alfa Romeo 159 2.2 JTS Selespeed</p>
+								<span class="main__car-slider_cost-car">USD 9600</span>
+							</div>
+						</div>
+						<div class="main__car-slider_img">
+							<div class="main__car-slider_description">
+								<p class="main__car-slider_about-car">2010 Alfa Romeo 159 2.2 JTS Selespeed</p>
+								<span class="main__car-slider_cost-car">USD 9600</span>
+							</div>
+						</div>
+							<div class="main__car-slider_img">
+								<div class="main__car-slider_description">
+									<p class="main__car-slider_about-car">2010 Alfa Romeo 159 2.2 JTS Selespeed</p>
+									<span class="main__car-slider_cost-car">USD 9600</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			<div class="col-lg-4">
+				<form action="#" class="main__form">
+          <h2 class="main__form_caption">Поиск авто</h2>
+					<a href="#" class="main__form_more">Расширенный поиск</a>
+
+					<div class="main__form_item item-mark">
+					<h5 class="main__form-capt_sel main__form_mark">Марка</h5>
+					<select name="mark" id="mark" class="main__form_mark-select">
+						<option value="hide"></option>
+						<option value="БМВ">БМВ</option>
+						<option value="Мерседес">Мерседес</option>
+						<option value="Ауди">Ауди</option>
+					</select>
+					</div>
+
+					<div class="main__form_item item-models">
+					<h5 class="main__form-capt_sel main__form_models">Модель</h5>
+					<select name="models" id="models" class="main__form_mark-select">
+						<option value="hide"></option>
+						<option value="e60">e60</option>
+						<option value="e39">e39</option>
+						<option value="e38">e38</option>
+					</select>
+					</div>
+
+					<div class="main__form_item item-year small-select">
+					<h5 class="main__form-capt_sel main__form_year">Год выпуска</h5>
+					<select name="year" id="yearBefore" class="main__form_mark-select">
+						<option value="hide">С</option>
+						<option value="1998">1998</option>
+						<option value="1999">1999</option>
+						<option value="2010">2000</option>
+						<option value="2011">2001</option>
+					</select>
+					<select name="year" id="yearAfter" class="main__form_mark-select">
+						<option value="hide">По</option>
+						<option value="1998">1998</option>
+						<option value="1999">1999</option>
+						<option value="2010">2000</option>
+						<option value="2011">2001</option>
+					</select>
+					</div>
+
+					<div class="main__form_item item-body middle-select">
+					<h5 class="main__form-capt_sel main__form_body">Тип кузова</h5>
+					<select name="body" id="body" class="main__form_mark-select">
+						<option value="hide"></option>
+						<option value="Седан">Седан</option>
+						<option value="Универсал">Универсал</option>
+						<option value="Минивен">Минивен</option>
+					</select>
+					</div>
+
+					<div class="main__form_item item-trans middle-select">
+					<h5 class="main__form-capt_sel main__form_trans">Трансмиссия</h5>
+					<select name="transmission" id="transmission" class="main__form_mark-select">
+						<option value="hide"></option>
+						<option value="МКПП">МКПП</option>
+						<option value="АКПП">АКПП</option>
+					</select>
+					</div>
+
+					<div class="main__form_item item-fuel middle-select">
+					<h5 class="main__form-capt_sel main__form_fuel">Топливо</h5>
+					<select name="fuel" id="fuel" class="main__form_mark-select">
+						<option value="hide"></option>
+						<option value="Бензин">Бензин</option>
+						<option value="Дизель">Дизель</option>
+					</select>
+					</div>
+
+					<div class="main__form_item item-engine small-select">
+					<h5 class="main__form-capt_sel main__form_engine">Объем двигателя</h5>
+					<select name="engine" id="engineBefore" class="main__form_mark-select">
+						<option value="hide">От</option>
+						<option value="2000">2000</option>
+						<option value="2200">2200</option>
+						<option value="2500">2500</option>
+					</select>
+
+						<select name="engine" id="engineAfter" class="main__form_mark-select">
+							<option value="hide">До</option>
+							<option value="2000">2000</option>
+							<option value="2200">2200</option>
+							<option value="2500">2500</option>
+						</select>
+					</div>
+
+					<div class="main__form_item item-cost medium-select">
+						<h5 class="main__form-capt_sel main__form_cost" id="cost">Цена</h5>
+						<div class="switch-field">
+							<input type="radio" id="switch_left" name="switch" value="USD" checked/>
+							<label for="switch_left"><i class="fa fa-usd" aria-hidden="true"></i></label>
+							<input type="radio" id="switch_center" name="switch" value="EURO" />
+							<label for="switch_center"><i class="fa fa-eur" aria-hidden="true"></i></label>
+							<input type="radio" id="switch_right" name="switch" value="BYN" />
+							<label for="switch_right">BYN</label>
+						</div>
+
+					<select name="from" id="from" class="main__form_mark-select">
+						<option value="hide">От</option>
+						<option value="1000">1000</option>
+						<option value="2000">2000</option>
+						<option value="3000">3000</option>
+					</select>					
+					<select name="until" id="until" class="main__form_mark-select">
+						<option value="hide">До</option>
+						<option value="1000">1000</option>
+						<option value="2000">2000</option>
+						<option value="3000">3000</option>
+					</select>
+					</div>
+
+					<div class="main__form_item item-nds">
+						<h5 class="main__form-capt_sel main__form_nds" >Цена с НДС</h5>
+						<input type="checkbox" name="NDS" id="NDS" class="input-checkbox">
+						<label for="NDS" class="label-checkbox"></label>
+					</div>
+
+					<button type="submit" class="main__form_submit">Подобрать авто</button>
+				</form>
+			</div>
+			</div>
+
+		<!--ORDER-->
+		<div class="order-container">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="order-car">
+						<h4 class="order-car__caption">Автомобили <br>под заказ</h4>
+					</div>
+				</div>
+				<div class="col-lg-6">
+          <div class="order-items__wrap">
+						<div class="order-item">
+							<a href="#" class="order-item_link">
+							<h5 class="order-item_capt">подержанные авто</h5>
+							<p class="order-item_desc">из Европы, США, РФ</p>
+							</a>
+						</div>
+						<div class="order-item">
+							<a href="#" class="order-item_link">
+							<h5 class="order-item_capt">новые автомобили</h5>
+							<p class="order-item_desc">из РФ</p>
+							</a>
+						</div>
+						<div class="order-item">
+							<a href="#" class="order-item_link">
+							<h5 class="order-item_capt">автомобили с НДС</h5>
+							<p class="order-item_desc">для юридических лиц</p>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--END ORDER-->
+
+		<!--ADVANTAGES-->
+		<div class="advantages-container">
+			<div class="row">
+				<div class="col-lg-12">
+					<h2 class="advantages__caption">ПРЕИМУЩЕСТВА РАБОТЫ С НАМИ</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="advantages__items-wrapper">
+				<div class="col-lg-3">
+					<div class="advantages__item">
+						<div class="advantages__item_img advantages__item_img-laptop"></div>
+						<h5 class="advantages__item_caption">ТЕХНИЧЕСКАЯ ПРОВЕРКА</h5>
+						<p class="advantages__item_description">Все продаваемые автомобили&#160;проходят полную техническую&#160;и&#160;компьютерную диагностику.</p>
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<div class="advantages__item">
+						<div class="advantages__item_img advantages__item_img-paint"></div>
+						<h5 class="advantages__item_caption">ЮРИДИЧЕСКАЯ ПРОВЕРКА</h5>
+						<p class="advantages__item_description">Все автомобили&#160;проходят юридическую&#160;экспертизу.
+							Мы&#160;гарантируем&#160;юридическую чистоту приобретаемых у&#160;нас автомобилей.</p>
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<div class="advantages__item">
+						<div class="advantages__item_img advantages__item_img-list"></div>
+						<h5 class="advantages__item_caption">БЕЗУПРЕЧНАЯ РЕПУТАЦИЯ</h5>
+						<p class="advantages__item_description">Мы дорожим&#160;вашим доверием.&#160;О нашей&#160;работе вы&#160;можете найти&#160;и&#160;прочитать отзывы&#160;на&#160;независимых интернет-площадках.</p>
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<div class="advantages__item">
+						<div class="advantages__item_img advantages__item_img-key"></div>
+						<h5 class="advantages__item_caption">КРЕДИТ ИЛИ ЛИЗИНГ</h5>
+						<p class="advantages__item_description">Готовы предоставить&#160;вам кредит&#160;или лизинг на&#160;покупку выбранного&#160;автомобиля.</p>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+		<!--END ADVANTAGES-->
+
+		<!--SERVICES-->
+		<div class="services-container">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="services-items__wrap">
+						<div class="services-item">
+							<a href="#" class="services-item_link">
+								<h5 class="services-item_capt">ОБМЕН автоМОБИЛЕй</h5>
+								<p class="services-item_desc">trade-in</p>
+							</a>
+						</div>
+						<div class="services-item">
+							<a href="#" class="services-item_link">
+								<h5 class="services-item_capt">автомобили в лизинг</h5>
+								<p class="services-item_desc">срок до 84 месяцев</p>
+							</a>
+						</div>
+						<div class="services-item">
+							<a href="#" class="services-item_link">
+								<h5 class="services-item_capt">доставка автомобилей</h5>
+								<p class="services-item_desc">из рф и европы</p>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="services-car">
+						<h4 class="services-car__caption">УСЛУГИ</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--END SERVICES-->
+
+
+		<!--NEWS-->
+
+		<div class="news-container">
+			<div class="row">
+				<div class="col-lg-12">
+					<h2 class="news__caption">НОВОСТИ</h2>
+				</div>
+			</div>
+
+			<div class="row">
+
+			</div>
+		</div>
+
+		<!--END NEWS-->
+
+
+
+
+	    </div>
+		</div>
+		<!--END MAIN CONTENT-->
+
+<!--SCRIPTS-->
+<script src="js/main.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="libs/slick/slick.min.js"></script>
+<script src="js/slider.js"></script>
+<!--END SCRIPTS-->
+</body>
+</html>
